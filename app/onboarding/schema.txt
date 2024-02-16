@@ -1,0 +1,39 @@
+course_categories
+[
+	cg_name
+	cg_img
+	cg_overview
+	facul_img
+	facul_name
+	facul_designation (50 chara) 
+
+	batch
+		[
+		batch_id
+		batch_title
+		batch_description
+		batch_icon
+		batch_type(1-SINGLE/2-BUNDLE/3-LANGVERSION)
+		sell_price
+		promoslider 
+			[
+				type (img/video)
+				url 
+			]
+
+		courses
+			[
+				 id
+				 title
+				 description
+				 max_student_count
+				 language
+				 sell_price
+
+
+
+			]
+		]
+
+
+]
